@@ -10,8 +10,8 @@ This plan outlines the steps to implement deep linking for the Flutter applicati
 - [ ] **Add `meta-data` for App Links**: For a better user experience on Android 12+, add a `meta-data` tag for App Links support.
 
 ### iOS
-- [ ] **Modify `Info.plist`**: Add a `CFBundleURLTypes` entry to `ios/Runner/Info.plist`.
-- [ ] **Define URL Scheme**: The entry will define a custom URL scheme (e.g., `mydeeplink`) that the app will respond to.
+- [x] **Modify `Info.plist`**: Add a `CFBundleURLTypes` entry to `ios/Runner/Info.plist`.
+- [x] **Define URL Scheme**: The entry will define a custom URL scheme (e.g., `mydeeplink`) that the app will respond to.
 
 ## Phase 2: Flutter Implementation
 
