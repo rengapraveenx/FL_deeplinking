@@ -26,8 +26,8 @@ This plan outlines the steps to implement deep linking for the Flutter applicati
 - [x] **Create Details Screen**: A screen that takes an `id` as a parameter and displays it. This will be the target for our deep links.
 
 ### Deep Link Handling
-- [ ] **Integrate with Router**: Configure the router to listen for incoming deep links.
-- [ ] **Parse Deep Links**: The router will parse the incoming URI and navigate to the appropriate route. For example, `mydeeplink://app/details/123` should navigate to the details screen with `id=123`.
+- [x] **Integrate with Router**: Configure the router to listen for incoming deep links.
+- [x] **Parse Deep Links**: The router will parse the incoming URI and navigate to the appropriate route. For example, `mydeeplink://app/details/123` should navigate to the details screen with `id=123`.
 
 ## Phase 3: Testing
 
