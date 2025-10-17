@@ -5,8 +5,8 @@ This plan outlines the steps to implement deep linking for the Flutter applicati
 ## Phase 1: Platform Configuration
 
 ### Android
-- [ ] **Modify `AndroidManifest.xml`**: Add an `<intent-filter>` to the main activity in `android/app/src/main/AndroidManifest.xml`.
-- [ ] **Define Scheme and Host**: The intent filter will have a custom scheme (e.g., `mydeeplink`) and a host (e.g., `app`). This will allow the app to respond to URLs like `mydeeplink://app`.
+- [x] **Modify `AndroidManifest.xml`**: Add an `<intent-filter>` to the main activity in `android/app/src/main/AndroidManifest.xml`.
+- [x] **Define Scheme and Host**: The intent filter will have a custom scheme (e.g., `mydeeplink`) and a host (e.g., `app`). This will allow the app to respond to URLs like `mydeeplink://app`.
 - [ ] **Add `meta-data` for App Links**: For a better user experience on Android 12+, add a `meta-data` tag for App Links support.
 
 ### iOS
