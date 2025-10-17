@@ -18,12 +18,12 @@ This plan outlines the steps to implement deep linking for the Flutter applicati
 ### Routing
 - [x] **Choose a Routing Package**: We will use a routing package to handle navigation. `go_router` is a good choice for this.
 - [x] **Add Dependency**: Add the chosen routing package to `pubspec.yaml`.
-- [ ] **Configure Router**: Set up the router in `lib/main.dart` to define the app's routes.
-- [ ] **Define Routes**: Create routes for the home screen and a details screen (e.g., `/` for home, `/details/:id` for details).
+- [x] **Configure Router**: Set up the router in `lib/main.dart` to define the app's routes.
+- [x] **Define Routes**: Create routes for the home screen and a details screen (e.g., `/` for home, `/details/:id` for details).
 
 ### Screen Creation
-- [ ] **Create Home Screen**: A simple screen with a button to navigate to the details screen.
-- [ ] **Create Details Screen**: A screen that takes an `id` as a parameter and displays it. This will be the target for our deep links.
+- [x] **Create Home Screen**: A simple screen with a button to navigate to the details screen.
+- [x] **Create Details Screen**: A screen that takes an `id` as a parameter and displays it. This will be the target for our deep links.
 
 ### Deep Link Handling
 - [ ] **Integrate with Router**: Configure the router to listen for incoming deep links.
